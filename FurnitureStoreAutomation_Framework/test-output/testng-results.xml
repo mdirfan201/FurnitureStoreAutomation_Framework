@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="119289" started-at="2021-05-22T13:17:11Z" finished-at="2021-05-22T13:19:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="119289" started-at="2021-05-22T13:17:11Z" finished-at="2021-05-22T13:19:10Z">
+      <class name="com.qa.FurnitureStore.TestCases.RegisterAccountPageTest">
+        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setupExtentReport" is-config="true" duration-ms="230" started-at="2021-05-22T13:17:10Z" finished-at="2021-05-22T13:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setup" is-config="true" duration-ms="13153" started-at="2021-05-22T13:17:11Z" finished-at="2021-05-22T13:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setRegisterValidData" duration-ms="9700" started-at="2021-05-22T13:17:24Z" data-provider="getFurnitureTestDate" finished-at="2021-05-22T13:17:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohammed Irfanullah123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$Ansari$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[irfanullah@bosontech.ai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7718942434]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pacific Grove, California(CA), 93950]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[91710]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRegisterValidData -->
+        <test-method status="PASS" signature="teraDown(org.testng.ITestResult)[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="teraDown" is-config="true" duration-ms="299" started-at="2021-05-22T13:17:34Z" finished-at="2021-05-22T13:17:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setRegisterValidData status=SUCCESS method=RegisterAccountPageTest.setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setup" is-config="true" duration-ms="14239" started-at="2021-05-22T13:17:34Z" finished-at="2021-05-22T13:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setRegisterValidData" duration-ms="9044" started-at="2021-05-22T13:17:48Z" data-provider="getFurnitureTestDate" finished-at="2021-05-22T13:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohammed Irfanullah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ansari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[irfanullah@bosontech.ai$]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7718942434]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pacific Grove, California(CA), 93950]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[91710]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRegisterValidData -->
+        <test-method status="PASS" signature="teraDown(org.testng.ITestResult)[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="teraDown" is-config="true" duration-ms="270" started-at="2021-05-22T13:17:57Z" finished-at="2021-05-22T13:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setRegisterValidData status=SUCCESS method=RegisterAccountPageTest.setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setup" is-config="true" duration-ms="13480" started-at="2021-05-22T13:17:58Z" finished-at="2021-05-22T13:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setRegisterValidData" duration-ms="9864" started-at="2021-05-22T13:18:11Z" data-provider="getFurnitureTestDate" finished-at="2021-05-22T13:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohammed Irfanullah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ansari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[irfanullah@bosontech.ai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7718942434]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pacific Grove, California(CA), 93950]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[91710]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRegisterValidData -->
+        <test-method status="PASS" signature="teraDown(org.testng.ITestResult)[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="teraDown" is-config="true" duration-ms="234" started-at="2021-05-22T13:18:21Z" finished-at="2021-05-22T13:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setRegisterValidData status=SUCCESS method=RegisterAccountPageTest.setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setup" is-config="true" duration-ms="15261" started-at="2021-05-22T13:18:21Z" finished-at="2021-05-22T13:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setRegisterValidData" duration-ms="10088" started-at="2021-05-22T13:18:37Z" data-provider="getFurnitureTestDate" finished-at="2021-05-22T13:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohammed Irfanullah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ansari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[irfanullah@bosontech.ai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7718942]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pacific Grove, California(CA), 93950]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[91710]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRegisterValidData -->
+        <test-method status="PASS" signature="teraDown(org.testng.ITestResult)[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="teraDown" is-config="true" duration-ms="283" started-at="2021-05-22T13:18:47Z" finished-at="2021-05-22T13:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setRegisterValidData status=SUCCESS method=RegisterAccountPageTest.setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setup" is-config="true" duration-ms="12713" started-at="2021-05-22T13:18:47Z" finished-at="2021-05-22T13:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="setRegisterValidData" duration-ms="9985" started-at="2021-05-22T13:19:00Z" data-provider="getFurnitureTestDate" finished-at="2021-05-22T13:19:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohammed Irfanullah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ansari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[irfanullah@bosontech.ai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7718942434]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pacific Grove, California(CA), 93950]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[91710]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ergode123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRegisterValidData -->
+        <test-method status="PASS" signature="teraDown(org.testng.ITestResult)[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="teraDown" is-config="true" duration-ms="243" started-at="2021-05-22T13:19:10Z" finished-at="2021-05-22T13:19:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setRegisterValidData status=SUCCESS method=RegisterAccountPageTest.setRegisterValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method status="PASS" signature="tearExtentReport()[pri:0, instance:com.qa.FurnitureStore.TestCases.RegisterAccountPageTest@69930714]" name="tearExtentReport" is-config="true" duration-ms="316" started-at="2021-05-22T13:19:10Z" finished-at="2021-05-22T13:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearExtentReport -->
+      </class> <!-- com.qa.FurnitureStore.TestCases.RegisterAccountPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
