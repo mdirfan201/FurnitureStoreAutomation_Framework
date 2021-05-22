@@ -29,7 +29,7 @@ public class TestBase {
 	
 	public TestBase() {
 		try {
-			FileInputStream ip= new FileInputStream("D:\\IRFAN---\\java program\\FurnitureStoreAutomation_Framework\\src\\main\\java\\com\\qa\\config\\config.properties");
+			FileInputStream ip= new FileInputStream("C:\\Users\\MY-PC.DESKTOP-8EQSD1V\\git\\FurnitureStoreAutomation_Framework\\FurnitureStoreAutomation_Framework\\src\\main\\java\\com\\qa\\config\\config.properties");
 			prop= new Properties();
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
@@ -72,7 +72,7 @@ public class TestBase {
 		
 		TakesScreenshot ts= (TakesScreenshot) driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("D:\\IRFAN---\\java program\\FurnitureStoreAutomation_Framework\\ScreenShots\\"+ testMethodNmae + ".png"));
+		FileUtils.copyFile(src, new File("C:\\Users\\MY-PC.DESKTOP-8EQSD1V\\git\\FurnitureStoreAutomation_Framework\\FurnitureStoreAutomation_Framework\\ScreenShots\\"+ testMethodNmae + ".png"));
 		
 	}
 	

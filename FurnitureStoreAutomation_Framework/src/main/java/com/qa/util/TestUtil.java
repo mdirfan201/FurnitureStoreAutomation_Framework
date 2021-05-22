@@ -16,7 +16,7 @@ public class TestUtil {
 	public static long PAGE_LODE_TIMEOUT=60;
 	public static long IMPLICIT_WAIT_TIMEOUT=60;
 	
-	public static String TESTDATA_SHEET_PATH ="D:\\IRFAN---\\java program\\FurnitureStoreAutomation_Framework\\src\\main\\java\\com\\qa\\TestData\\FurnitureStoreData.xlsx";
+	public static String TESTDATA_SHEET_PATH ="C:\\Users\\MY-PC.DESKTOP-8EQSD1V\\git\\FurnitureStoreAutomation_Framework\\FurnitureStoreAutomation_Framework\\src\\main\\java\\com\\qa\\TestData\\FurnitureStoreData.xlsx";
 	
 	static Sheet sheet;
 	static Workbook book;
